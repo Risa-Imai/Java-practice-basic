@@ -3,6 +3,7 @@
 	<name>Servers</name>
 	<comment></comment>
 	<projects>
+		<project>Java-practice</project>
 	</projects>
 	<buildSpec>
 	</buildSpec>

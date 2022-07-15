@@ -1,6 +1,7 @@
 CustomFiltersActionGroup.org.eclipse.jdt.ui.PackageExplorer.TAG_DUMMY_TO_TEST_EXISTENCE=storedViewPreferences
 CustomFiltersActionGroup.org.eclipse.jdt.ui.PackageExplorer.userDefinedPatterns=Servers, RemoteSystemsTempFiles, *.iml
 CustomFiltersActionGroup.org.eclipse.jdt.ui.PackageExplorer.userDefinedPatternsEnabled=true
+breadcrumb.jp.sourceforge.mergedoc.PleiadesJavaPerspective=true
 content_assist_category_order=org.eclipse.jdt.ui.javaPostfixProposalCategory\:65547\u0000org.eclipse.jdt.ui.spellingProposalCategory\:65545\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\:65540\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\:65539\u0000org.eclipse.jdt.ui.textProposalCategory\:65541\u0000org.eclipse.jdt.ui.javaAllProposalCategory\:65542\u0000org.eclipse.jdt.ui.templateProposalCategory\:2\u0000org.eclipse.jdt.ui.swtProposalCategory\:3\u0000org.eclipse.jdt.ui.javaChainProposalCategory\:4
 content_assist_completion_replacement_background=200,200,0
 content_assist_completion_replacement_foreground=200,0,0
