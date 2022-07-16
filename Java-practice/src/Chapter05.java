@@ -18,6 +18,11 @@ public class Chapter05 {
 		for (int i = 0; i < array.length; i++) {
 			System.out.println(array[i]);
 		}
+		
+		int[] a = new int[] {33, 66, 99};
+		for (int i = a.length -1; i >= 0; i--) {
+			System.out.println(a[i]);
+		}
 
 		int[] array1 = { 0, 10, 20, 30, 40 };
 		System.out.println(array1[3]);
