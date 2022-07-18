@@ -1,7 +1,7 @@
 
 public class For02 {
 	public static void main(String[] args) {
-		int[] array = { 1, 2, 3, 4, 5 };
+		int[] array = { 1, 3, 5, 7, 9 };
 		for (int number : array) {
 			System.out.println("For02 = " + number);
 		}
