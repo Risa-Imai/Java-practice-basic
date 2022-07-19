@@ -6,6 +6,7 @@ public class ClassMethod04 {
 	public static void main(String[] args) {
 		// Human04インスタンスを生成すると、コンストラクタ内の処理が実行される
 		Human04 yamada = new Human04("山田");
+		Human04 tanaka = new Human04("田中");
 		
 		// 静的メンバーは、インスタンス生成せずに直接使用できる
 		Human04.staticMethodPrint();
@@ -19,5 +20,6 @@ public class ClassMethod04 {
 		
 		// インスタンスメンバーはインスタンス生成してから使用する
 		yamada.instanceMethodPrint();
+		tanaka.instanceMethodPrint();
 	}
 }
