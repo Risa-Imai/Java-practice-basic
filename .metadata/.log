@@ -8920,3 +8920,56 @@ java.lang.IllegalStateException: Disconnected before saving. Please post stacktr
 		at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
 		at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
 		... 21 more
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2022-07-21 18:32:12.285
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Error in Java Model (code 977): /Java-practice/src/practice/NoCapsuleMan.java はターゲットにすでに存在します
+	at org.eclipse.jdt.internal.core.CreateCompilationUnitOperation.executeOperation(CreateCompilationUnitOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:811)
+	at org.eclipse.jdt.internal.core.PackageFragment.createCompilationUnit(PackageFragment.java:164)
+	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.createType(NewTypeWizardPage.java:2743)
+	at org.eclipse.jdt.internal.ui.wizards.NewClassCreationWizard.finishPage(NewClassCreationWizard.java:68)
+	at org.eclipse.jdt.internal.ui.wizards.NewElementWizard.lambda$1(NewElementWizard.java:118)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.core 4 977 2022-07-21 18:32:12.292
+!MESSAGE /Java-practice/src/practice/NoCapsuleMan.java はターゲットにすでに存在します
+
+!ENTRY mergedoc.encoding 2 0 2022-07-21 18:59:35.302
+!MESSAGE リソース '/Java-practice/src/practice/NoCapsuleMan.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-21 18:59:35.304
+!MESSAGE リソース '/Java-practice/src/practice/NoCapsuleMan.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-21 18:59:35.307
+!MESSAGE リソース '/Java-practice/src/practice/NoCapsuleMan.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-21 18:59:35.309
+!MESSAGE リソース '/Java-practice/src/practice/NoCapsuleMan.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-21 18:59:35.312
+!MESSAGE リソース '/Java-practice/src/practice/NoCapsuleMan.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-21 18:59:35.313
+!MESSAGE リソース '/Java-practice/src/practice/NoCapsuleMan.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-21 18:59:35.317
+!MESSAGE リソース '/Java-practice/src/practice/NoCapsuleMan.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-21 18:59:35.318
+!MESSAGE リソース '/Java-practice/src/practice/NoCapsuleMan.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-21 18:59:35.363
+!MESSAGE リソース '/Java-practice/src/practice/NoCapsuleMan.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-21 18:59:35.365
+!MESSAGE リソース '/Java-practice/src/practice/NoCapsuleMan.java' が存在しません。
