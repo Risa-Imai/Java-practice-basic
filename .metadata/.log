@@ -8973,3 +8973,43 @@ Java Model Exception: Error in Java Model (code 977): /Java-practice/src/practic
 
 !ENTRY mergedoc.encoding 2 0 2022-07-21 18:59:35.365
 !MESSAGE リソース '/Java-practice/src/practice/NoCapsuleMan.java' が存在しません。
+!SESSION 2022-07-22 13:48:19.909 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 2 2 2022-07-22 16:47:00.441
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY mergedoc.encoding 2 0 2022-07-22 16:47:21.149
+!MESSAGE リソース '/Java-practice/src/extend/Abstrac01.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-22 16:47:21.151
+!MESSAGE リソース '/Java-practice/src/extend/Abstrac01.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-22 16:47:21.153
+!MESSAGE リソース '/Java-practice/src/extend/Abstrac01.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-22 16:47:21.155
+!MESSAGE リソース '/Java-practice/src/extend/Abstrac01.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-22 16:47:21.157
+!MESSAGE リソース '/Java-practice/src/extend/Abstrac01.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-22 16:47:21.158
+!MESSAGE リソース '/Java-practice/src/extend/Abstrac01.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-22 16:47:21.161
+!MESSAGE リソース '/Java-practice/src/extend/Abstrac01.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-22 16:47:21.163
+!MESSAGE リソース '/Java-practice/src/extend/Abstrac01.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-22 16:47:21.208
+!MESSAGE リソース '/Java-practice/src/extend/Abstrac01.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-22 16:47:21.210
+!MESSAGE リソース '/Java-practice/src/extend/Abstrac01.java' が存在しません。
