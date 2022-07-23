@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="extend.human.Employee"/>
+    <fullyQualifiedTypeName name="extend.human.Human"/>
+    <fullyQualifiedTypeName name="extend.human.Student"/>
+    <fullyQualifiedTypeName name="extend.phone.Camera"/>
+    <fullyQualifiedTypeName name="extend.phone.MobilePhone"/>
+</qualifiedTypeNameHistroy>
