@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class progate2 {
 	public static void main(String[] args) {
@@ -14,10 +15,24 @@ public class progate2 {
 			if (number % 2 == 0) {
 				System.out.println(number);
 				evenSum = evenSum + number;
+				// evenSum += number;
 			} else
 				oddSum = oddSum + number;
+				// oddSum += number;
 		}
 		System.out.println("奇数の和は" + oddSum + "です");
 		System.out.println("偶数の和は" + evenSum + "です");
+		
+		for (int i = 0; i < numbers.length; i++) {
+			if (numbers[i] % 2 == 0) {
+				System.out.println(numbers[i]);
+				System.out.println(Arrays.toString(numbers));
+				evenSum += numbers[i];
+			} else {
+				System.out.println(numbers[i]);
+				oddSum += numbers[i];
+			}
+		}
+		
 	}
 }
