@@ -9834,3 +9834,12 @@ java.lang.IllegalStateException: Call stack for thread main
 	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 2 2 2022-07-24 23:42:50.042
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY mergedoc.encoding 2 0 2022-07-24 23:43:12.998
+!MESSAGE リソース '/Java-practice/src/Progate/Mainpractice.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-24 23:43:13.001
+!MESSAGE リソース '/Java-practice/src/Progate/Mainpractice.java' が存在しません。
