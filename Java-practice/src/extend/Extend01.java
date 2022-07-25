@@ -11,7 +11,7 @@ public class Extend01 {
 		
 		Student sato = new Student("佐藤", 17, 70);
 		System.out.println("Humanクラスのメソッド：名前は、" + sato.getName());
-		System.out.println("Studentクラスのメソッド：プロフィールを紹介します。" + sato.getStudentPrifile());
+		System.out.println("Studentクラスのメソッド：プロフィールを紹介します。" + sato.getStudentProfile());
 		
 		Human human = new Employee("田中", 28, "システム部");
 		System.out.println("Humanクラスのメソッド：名前は、" + human.getName());

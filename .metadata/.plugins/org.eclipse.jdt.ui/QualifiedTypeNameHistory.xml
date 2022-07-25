@@ -5,4 +5,6 @@
     <fullyQualifiedTypeName name="extend.human.Student"/>
     <fullyQualifiedTypeName name="extend.phone.Camera"/>
     <fullyQualifiedTypeName name="extend.phone.MobilePhone"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="Progate.progate.classpractice"/>
 </qualifiedTypeNameHistroy>
