@@ -7,6 +7,7 @@ import extend.phone.Phone;
 public class FlyingPhone implements Phone, Flying {
 	private int minutes;
 	
+	// コンストラクタ。引数でメンバ変数を初期化
 	public FlyingPhone(int minutes) {
 		this.minutes = minutes;
 	}
@@ -23,7 +24,10 @@ public class FlyingPhone implements Phone, Flying {
 		System.out.println(number + "に電話します。通話できるのは飛んでいる間だけです。");
 	}
 	
+	/* [Phone]と{Flying]の両インターフェースにdefaultメソッドがあるのでオーバーライドする必要がある。
+	 * しないとコンパイルエラーになる。今回の場合は[Flying]インターフェースの処理なので[super]を使用して、
+	 * [Flying]インターフェースのdefaultメソッドを呼び出す。 */
 	public void powerOff() {
-		System.out.println("飛んでいる場合は落下します。");
+		Flying.super.powerOff();
 	}
 }
