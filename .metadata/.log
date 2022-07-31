@@ -9897,3 +9897,28 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 !ENTRY org.eclipse.ui 2 2 2022-07-29 23:32:18.348
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-07-31 12:45:35.229 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY mergedoc.encoding 2 0 2022-07-31 12:48:13.402
+!MESSAGE リソース '/Java-practice/src/Chapter15_1.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-31 12:48:13.404
+!MESSAGE リソース '/Java-practice/src/Chapter15_1.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-31 12:48:13.411
+!MESSAGE リソース '/Java-practice/src/Chapter15_1.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-31 12:48:13.412
+!MESSAGE リソース '/Java-practice/src/Chapter15_1.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-31 12:48:13.447
+!MESSAGE リソース '/Java-practice/src/Chapter15_1.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-31 12:48:13.448
+!MESSAGE リソース '/Java-practice/src/Chapter15_1.java' が存在しません。
