@@ -9922,3 +9922,6 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 !ENTRY mergedoc.encoding 2 0 2022-07-31 12:48:13.448
 !MESSAGE リソース '/Java-practice/src/Chapter15_1.java' が存在しません。
+
+!ENTRY org.eclipse.ui 2 2 2022-07-31 16:16:33.543
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
