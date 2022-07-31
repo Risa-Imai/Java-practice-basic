@@ -1,8 +1,13 @@
 package test;
 
+import java.util.Scanner;
+
 public class FizzBuzz {
 	public static void main(String[] args) {
-		int number = 4;
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("好きな数字を入力してください=>");
+		int number = scanner.nextInt();
 		if (number % 15 == 0) {
 			System.out.println("FizzBuzz");
 		} else if (number % 5 == 0) {
