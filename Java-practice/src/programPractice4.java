@@ -5,9 +5,7 @@ public class programPractice4 {
 		Scanner scanner = new Scanner(System.in);
 		
 		int n = scanner.nextInt();
-	}
-	
-	static int sign_number(int n) {
+		
 		if(n > 0) {
 			for(int i = n; i >= 0; i--) {
 				System.out.println(i);
@@ -16,6 +14,6 @@ public class programPractice4 {
 			for(int i = n; i <= 0; i++) {
 				System.out.println(i);
 			}
-		} return n;
+		} 
 	}
 }
