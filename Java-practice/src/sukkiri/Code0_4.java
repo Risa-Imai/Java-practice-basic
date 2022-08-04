@@ -6,7 +6,6 @@ public class Code0_4 {
 		System.out.println("すがわら");
 		System.out.println("31歳です");
 		System.out.println("お酒が好きです");
-
 	}
 
 }
