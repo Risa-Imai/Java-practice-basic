@@ -31,6 +31,9 @@ public class Kazuate {
 		// 最後のメッセージ
 		System.out.println("当たりです");
 		System.out.println(count + "回目で当てました");
+		if (count <= 4) {
+			System.out.println("すばらしい！");
+		}
 	}
 
 }
