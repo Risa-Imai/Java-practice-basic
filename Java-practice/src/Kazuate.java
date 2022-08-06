@@ -14,6 +14,12 @@ public class Kazuate {
 		while ( x != a) {
 			// はずれのメッセージ
 			System.out.println("違うよーん");
+			// ヒントの表示
+			if (x > a) {
+				System.out.println("大きすぎ！");
+			} else {
+				System.out.println("小さすぎ！");
+			}
 			// 数を入力
 			System.out.println("当ててごらん");
 			x = sc.nextInt();
