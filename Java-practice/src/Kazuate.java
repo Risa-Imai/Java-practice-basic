@@ -7,6 +7,8 @@ public class Kazuate {
 		Scanner sc = new Scanner(System.in);
 		// コンピュータが数を選ぶ
 		int a = (int)(Math.random() * 20) + 1;
+		// カウンターの初期値
+		int count = 1;
 		// 数を入力
 		System.out.println("当ててごらん：");
 		int x = sc.nextInt();
@@ -20,12 +22,15 @@ public class Kazuate {
 			} else {
 				System.out.println("小さすぎ！");
 			}
+			// カウントを１増やす
+			count++;
 			// 数を入力
-			System.out.println("当ててごらん");
+			System.out.println("当ててごらん：");
 			x = sc.nextInt();
 		}
 		// 最後のメッセージ
 		System.out.println("当たりです");
+		System.out.println(count + "回目で当てました");
 	}
 
 }
