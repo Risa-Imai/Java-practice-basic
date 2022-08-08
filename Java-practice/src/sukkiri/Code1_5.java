@@ -2,6 +2,7 @@ package sukkiri;
 
 public class Code1_5 {
 	public static void main(String[] args) {
+		// finalを付けて宣言された変数は定数として扱われ、値は書き換えられない
 		final double PI = 3.14; // 定数として円周率を宣言
 		int pie = 5;
 		System.out.println("半径" + pie + "cmのパイの面積は、");
