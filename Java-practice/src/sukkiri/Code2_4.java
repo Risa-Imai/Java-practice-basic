@@ -6,9 +6,11 @@ public class Code2_4 {
 		a++;
 		System.out.println(a);
 		
+		/* インクリメントとデクリメントは他の演算子と一緒に使わない
 		a = 10;
 		int b = 10;
-		System.out.println(++a + 50);
-		System.out.println(b++ + 50);
+		System.out.println(++a + 50);　=> 61
+		System.out.println(b++ + 50);　=> 60
+		*/
 	}
 }
