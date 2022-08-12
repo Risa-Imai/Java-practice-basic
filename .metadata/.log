@@ -9555,3 +9555,183 @@ org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connect
 
 !ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:50:32.248
 !MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/tools/tcf/terminals_lunasr2/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:50:33.460
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/tools/tcf/terminals_lunasr2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:50:38.322
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/tools/tcf/terminals_lunasr2/tcf_1.3_20150226_subset, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:50:41.957
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/tools/tcf/terminals_lunasr2/tm_3.7plus_20150226_subset, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:50:45.570
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/tools/tcf/terminals_lunasr2/cdt_8.4_subset, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:50:49.153
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:50:52.848
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/mylyn/releases/latest, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:50:57.650
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/mylyn/drops/3.25.2/v20200831-1956/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:51:01.651
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/mylyn/drops/3.25.1/v20200526-0330/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:51:05.501
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/mylyn/drops/3.25.0/v20190328-1711/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:51:09.363
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:51:11.756
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:51:12.968
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-08-12 16:51:16.587
+!MESSAGE プロビジョニング例外
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: http://download.eclipse.org/technology/m2e/releases/ のリポジトリーが見つかりません。
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:709)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:177)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:99)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:120)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedRepository(ProvisioningContext.java:189)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:163)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:149)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.getArtifactRepositories(DownloadManager.java:110)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:95)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2022-08-12 16:51:16.588
+!MESSAGE http://download.eclipse.org/technology/m2e/releases/ のリポジトリーが見つかりません。
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:51:16.865
+!MESSAGE Using unsafe http transport to retrieve http://dist.springsource.com/release/TOOLS/gradle/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:51:17.342
+!MESSAGE Using unsafe http transport to retrieve http://dist.springsource.com/release/TOOLS/gradle/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:51:17.586
+!MESSAGE Using unsafe http transport to retrieve http://dist.springsource.com/release/TOOLS/gradle/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:51:18.317
+!MESSAGE Using unsafe http transport to retrieve http://download.springsource.com/release/TOOLS/gradle/3.9.4.RELEASE/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:51:18.438
+!MESSAGE Using unsafe http transport to retrieve http://eclipse.jeeeyul.net/update/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:51:18.863
+!MESSAGE Using unsafe http transport to retrieve http://github.eclipsesource.com/jshint-eclipse/updates/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:51:19.109
+!MESSAGE Using unsafe http transport to retrieve http://github.eclipsesource.com/jshint-eclipse/updates/jshint-eclipse-0.9.10.20141011-1730-5cddf91, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:51:19.347
+!MESSAGE Using unsafe http transport to retrieve http://github.eclipsesource.com/jshint-eclipse/updates/jshint-eclipse-0.10.0.20151030-1148-34f9e6d, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:51:19.425
+!MESSAGE Using unsafe http transport to retrieve http://github.eclipsesource.com/jshint-eclipse/updates/jshint-eclipse-0.10.1.20160216-0911-a8eac20, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:51:19.547
+!MESSAGE Using unsafe http transport to retrieve http://mirur.io/update-site/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:51:25.631
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,minimal-json,0.9.4.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:51:25.633
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,minimatch.java,1.1.0.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:51:25.634
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,tern-jsdt-feature,1.1.0.201511082254.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:51:25.635
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,tern-feature,1.1.0.201511082254.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:51:26.385
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,tern.core,1.1.0.201511082254.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:51:26.391
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,tern-server-nodejs-feature,1.1.0.201511082254.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:51:26.584
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,tern.eclipse,1.1.0.201511082254.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:51:26.812
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,tern.eclipse.ide.core,1.1.0.201511082254.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:51:26.903
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,tern.eclipse.ide.jsdt.core,1.1.0.201511082254.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:51:27.579
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,tern.eclipse.ide.jsdt.ui,1.1.0.201511082254.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:51:27.828
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,tern.eclipse.ide.server.nodejs.core,1.1.0.201511082254.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:51:28.519
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,tern.eclipse.ide.server.nodejs.ui,1.1.0.201511082254.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:51:28.856
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,tern.eclipse.ide.ui,1.1.0.201511082254.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:51:29.063
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,tern.server.nodejs,1.1.0.201511082254.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:51:29.731
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,ternjs,1.1.0.201511082254.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:53:02.015
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.mozilla.javascript,1.7.5.v201504281450.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:53:02.017
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.mozilla.javascript.source,1.7.5.v201504281450.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:53:03.646
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.eclipsesource.jshint,0.10.1.20160216-0911.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:53:03.647
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.eclipsesource.jshint.ui,0.10.1.20160216-0911.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:53:03.648
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.eclipsesource.jshint.source,0.10.1.20160216-0911.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:53:03.652
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.eclipsesource.jshint.feature,0.10.1.20160216-0911.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-08-12 16:53:04.016
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.eclipsesource.jshint.ui.source,0.10.1.20160216-0911.
+
+!ENTRY org.eclipse.ui 2 2 2022-08-12 16:55:47.884
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-08-12 16:55:50.055 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/owner/OneDrive/Desktop/WBC/Java-practice/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 2 2 2022-08-12 17:04:07.765
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
