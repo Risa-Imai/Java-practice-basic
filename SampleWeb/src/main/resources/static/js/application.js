@@ -1,6 +1,6 @@
 /**
  * 
  */
-$(".openbtn4").click(function () {
+$('.openbtn4').click(function () {
     $(this).toggleClass('active');
 });
