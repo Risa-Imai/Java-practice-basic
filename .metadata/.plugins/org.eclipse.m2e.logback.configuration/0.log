@@ -2058,3 +2058,13 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:p
 2022-08-14 02:22:21,645 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2022-08-14 02:22:56,314 [Worker-8: Java-practice refs/heads/main - origin へプッシュ] INFO  o.a.s.c.u.s.e.EdDSASecurityProviderRegistrar - getOrCreateProvider(EdDSA) created instance of net.i2p.crypto.eddsa.EdDSASecurityProvider
 2022-08-14 02:22:56,439 [Worker-8: Java-practice refs/heads/main - origin へプッシュ] INFO  o.a.s.c.i.DefaultIoServiceFactoryFactory - No detected/configured IoServiceFactoryFactory using Nio2ServiceFactoryFactory
+2022-08-15 00:57:51,444 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-08-15 01:04:25,025 [Worker-15: SampleWeb - SampleWebApplication の起動] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-15 01:04:25,027 [Worker-15: SampleWeb - SampleWebApplication の起動] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-15 01:04:25,031 [Worker-15: SampleWeb - SampleWebApplication の起動] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-15 01:04:25,059 [Worker-15: SampleWeb - SampleWebApplication の起動] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2022-08-15 01:04:25,332 [Worker-15: SampleWeb - SampleWebApplication の起動] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-15 01:04:25,333 [Worker-15: SampleWeb - SampleWebApplication の起動] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-15 01:04:25,333 [Worker-15: SampleWeb - SampleWebApplication の起動] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\owner\OneDrive\Desktop\WBC\Java-practice\SampleWeb\src\test\resources
+2022-08-15 01:07:45,382 [Worker-21: Java-practice refs/heads/main - origin へプッシュ] INFO  o.a.s.c.u.s.e.EdDSASecurityProviderRegistrar - getOrCreateProvider(EdDSA) created instance of net.i2p.crypto.eddsa.EdDSASecurityProvider
+2022-08-15 01:07:45,610 [Worker-21: Java-practice refs/heads/main - origin へプッシュ] INFO  o.a.s.c.i.DefaultIoServiceFactoryFactory - No detected/configured IoServiceFactoryFactory using Nio2ServiceFactoryFactory
