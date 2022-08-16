@@ -2068,3 +2068,6 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:p
 2022-08-15 01:04:25,333 [Worker-15: SampleWeb - SampleWebApplication の起動] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\owner\OneDrive\Desktop\WBC\Java-practice\SampleWeb\src\test\resources
 2022-08-15 01:07:45,382 [Worker-21: Java-practice refs/heads/main - origin へプッシュ] INFO  o.a.s.c.u.s.e.EdDSASecurityProviderRegistrar - getOrCreateProvider(EdDSA) created instance of net.i2p.crypto.eddsa.EdDSASecurityProvider
 2022-08-15 01:07:45,610 [Worker-21: Java-practice refs/heads/main - origin へプッシュ] INFO  o.a.s.c.i.DefaultIoServiceFactoryFactory - No detected/configured IoServiceFactoryFactory using Nio2ServiceFactoryFactory
+2022-08-16 00:00:24,583 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-08-16 00:00:44,029 [Worker-7: Java-practice refs/heads/main - origin へプッシュ] INFO  o.a.s.c.u.s.e.EdDSASecurityProviderRegistrar - getOrCreateProvider(EdDSA) created instance of net.i2p.crypto.eddsa.EdDSASecurityProvider
+2022-08-16 00:00:44,165 [Worker-7: Java-practice refs/heads/main - origin へプッシュ] INFO  o.a.s.c.i.DefaultIoServiceFactoryFactory - No detected/configured IoServiceFactoryFactory using Nio2ServiceFactoryFactory
