@@ -6,5 +6,7 @@ public class Code2_7 {
 		System.out.println(age);
 		// 3.2というdouble型リテラルの前に記述された「(int)」が強制的な型変換を指示する
 		// キャスト演算子(cast operator)
+		// (変換先の型名)式
+		// よほどの理由が無い限り使わない
 	}
 }
