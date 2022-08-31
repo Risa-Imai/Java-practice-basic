@@ -1,13 +1,11 @@
 
-public class sum {
+public class sum2 {
 	public static void main(String[] args) {
 		int a = 0;
 		int b = 1;
 		
 		while(b <= 100) {
-			if(b % 2 == 0) {
-				a += b;
-			}
+			a += b;
 			b++;
 		}
 		
