@@ -2337,3 +2337,9 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:p
 2022-09-01 00:42:20,644 [Worker-2: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\owner\OneDrive\Desktop\WBC\Java-practice\SampleWeb\src\test\resources
 2022-09-01 00:52:38,357 [Worker-14: Java-practice refs/heads/main - origin へプッシュ] INFO  o.a.s.c.u.s.e.EdDSASecurityProviderRegistrar - getOrCreateProvider(EdDSA) created instance of net.i2p.crypto.eddsa.EdDSASecurityProvider
 2022-09-01 00:52:38,491 [Worker-14: Java-practice refs/heads/main - origin へプッシュ] INFO  o.a.s.c.i.DefaultIoServiceFactoryFactory - No detected/configured IoServiceFactoryFactory using Nio2ServiceFactoryFactory
+2022-09-02 11:39:21,272 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-09-02 12:07:30,000 [Worker-26: Java-practice refs/heads/main - origin へプッシュ] INFO  o.a.s.c.u.s.e.EdDSASecurityProviderRegistrar - getOrCreateProvider(EdDSA) created instance of net.i2p.crypto.eddsa.EdDSASecurityProvider
+2022-09-02 12:07:30,133 [Worker-26: Java-practice refs/heads/main - origin へプッシュ] INFO  o.a.s.c.i.DefaultIoServiceFactoryFactory - No detected/configured IoServiceFactoryFactory using Nio2ServiceFactoryFactory
+2022-09-03 21:05:46,271 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-09-03 21:10:24,427 [Worker-4: Java-practice refs/heads/main - origin へプッシュ] INFO  o.a.s.c.u.s.e.EdDSASecurityProviderRegistrar - getOrCreateProvider(EdDSA) created instance of net.i2p.crypto.eddsa.EdDSASecurityProvider
+2022-09-03 21:10:24,548 [Worker-4: Java-practice refs/heads/main - origin へプッシュ] INFO  o.a.s.c.i.DefaultIoServiceFactoryFactory - No detected/configured IoServiceFactoryFactory using Nio2ServiceFactoryFactory

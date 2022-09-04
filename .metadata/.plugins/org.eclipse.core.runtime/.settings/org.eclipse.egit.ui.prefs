@@ -1,5 +1,5 @@
 StagingView_Presentation=TREE
-commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>add</message>\r\n<message>[add]</message>\r\n<message>[Add]Code3_3\u3042\u307E\u308A\u63A8\u5968\u3055\u308C\u306A\u3044\u30D6\u30ED\u30C3\u30AF\u306E\u6CE2\u30AB\u30C3\u30B3\u7701\u7565</message>\r\n<message>[Add]Code3_2</message>\r\n<message>[Add]Code3_1</message>\r\n<message>[Fix]Code2_14</message>\r\n<message>[Add]\u7B54\u3048\u5408\u308F\u305B</message>\r\n<message>[Add]practice2_3&\#x0A;</message>\r\n<message>[Add]practice2_1&\#x0A;</message>\r\n<message>[Add]Code2_15\u6CE8\u91C8\u8FFD\u52A0</message>\r\n</messages>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>[Add]</message>\r\n<message>Java\u6F14\u7FD2\u554F\u984C</message>\r\n<message>add</message>\r\n<message>[add]</message>\r\n<message>[Add]Code3_3\u3042\u307E\u308A\u63A8\u5968\u3055\u308C\u306A\u3044\u30D6\u30ED\u30C3\u30AF\u306E\u6CE2\u30AB\u30C3\u30B3\u7701\u7565</message>\r\n<message>[Add]Code3_2</message>\r\n<message>[Add]Code3_1</message>\r\n<message>[Fix]Code2_14</message>\r\n<message>[Add]\u7B54\u3048\u5408\u308F\u305B</message>\r\n<message>[Add]practice2_3&\#x0A;</message>\r\n</messages>
 eclipse.preferences.version=1
 show_git_prefix_warning=false
 show_home_drive_warning=false
