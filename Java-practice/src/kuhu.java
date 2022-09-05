@@ -8,7 +8,6 @@ public class kuhu {
 				System.out.print("■");
 			}
 			System.out.println();
-			
 		}
 	}
 }
