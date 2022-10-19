@@ -9,7 +9,7 @@ public class Code5_5 {
 		add(200, 50);
 	}
 	
-	// 複数の値を受け取るaaddメソッド
+	// 複数の値を受け取るaddメソッド
 	public static void add(int x,int y) {
 		int ans = x + y;
 		System.out.println(x + "+" + y + "=" + ans);
