@@ -6,6 +6,8 @@ public class Code5_4 {
 		hello("湊");
 		hello("朝香");
 		hello("菅原");
+		String name = new java.util.Scanner(System.in).nextLine();
+		hello(name);
 		System.out.println("メソッドの呼び出しが終わりました");
 	}
 	public static void hello(String name) {
