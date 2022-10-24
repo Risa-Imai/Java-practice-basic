@@ -2,7 +2,10 @@ package sukkiri;
 
 public class practice5_2 {
 	public static void main(String[] args) {
-		email("skyclouds134@gmail.com", "こんにちは", "メールは届いていますか？");
+		String title = "お誘い";
+		String address = "skyclouds@gmail.com";
+		String text = "今度、飲みにいきませんか";
+		email(title, address, text);
 	}
 	public static void email(String title, String address, String text) {
 		System.out.println(address + "に、以下のメールを送信しました");
