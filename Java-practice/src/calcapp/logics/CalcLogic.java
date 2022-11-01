@@ -1,4 +1,4 @@
-package sukkiri;
+package calcapp.logics;
 
 public class CalcLogic {
 	public static int tasu(int a, int b) {
@@ -6,7 +6,7 @@ public class CalcLogic {
 		return plus;
 	}
 	public static int hiku(int a, int b) {
-		int minus = a = b;
+		int minus = a - b;
 		return minus;
 	}
 }
